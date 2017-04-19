@@ -1,11 +1,11 @@
 export default {
-	putLocalData: function(key, src) {
-		window.localStorage.setItem(key, JSON.stringify(src));
-	},
+	// putLocalData: function(key, src) {
+	// 	window.localStorage.setItem(key, JSON.stringify(src));
+	// },
 
-	getLocalData: function(key) {
-		return JSON.parse(window.localStorage.getItem(key));
-	},
+	// getLocalData: function(key) {
+	// 	return JSON.parse(window.localStorage.getItem(key));
+	// },
 
 	//格式化日期
 	//必填参数date,Date类型日期
