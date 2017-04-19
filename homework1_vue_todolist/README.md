@@ -1,5 +1,6 @@
 #步骤
-1. git clone git@github.com:JayChenFE/graduate_project.git到本地
-2. 打开task4_nobackend目录
-4. 运行webpack命令打包
-5. 打开 page.html
+
+1. 打开homework1_vue_todolist目录
+2. npm install 安装依赖
+3. 运行webpack命令打包
+4. 打开 page.html

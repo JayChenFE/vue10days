@@ -164,6 +164,7 @@ var app = new Vue({
 		},
 
 		logout: function() {
+			this.saveOrUpdateTodos();
 			AV.User.logOut();
 			this.currentUser = null;
 			window.location.reload();
