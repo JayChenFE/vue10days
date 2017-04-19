@@ -227,6 +227,7 @@
 			},
 
 			logout: function logout() {
+				this.saveOrUpdateTodos();
 				_leancloudStorage2.default.User.logOut();
 				this.currentUser = null;
 				window.location.reload();

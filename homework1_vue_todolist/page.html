@@ -138,7 +138,7 @@
             </div>
             <ul class="todos layout">
                 <li v-cloak v-for="todo in todoList">
-                    <input type="checkbox" v-model="todo.done">
+                    <input type="checkbox" v-model="todo.done" @change="saveOrUpdateTodos">
                     <span class="done" v-if="todo.done">已完成</span>
                     <span class="notDone" v-else>未完成</span>
                     <span>创建时间:{{ todo.createdAt }}</span>
